@@ -30,4 +30,14 @@ EX 5: name1= "Zeyad "
       name2= "Mahmoud"
       print ("Zeyad"+"Mahmoud")
       =ZeyadMahmoud
-      
+ 
+
+## أهم الملاحظات
+
+- : لا يمكن عمل concatenation اسم مع رقم 
+EX:  name1= "Zeyad "
+      name2= "32"
+      names= name1 + name2
+      print (names) 
+      =Zeyad 32  خطاء 
+
