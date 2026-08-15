@@ -45,3 +45,7 @@ name="Zeyad"
      print(name[0:4+1])
      print(name[0:5])
      =Zeyad
+
+## شرح الكود بكلماتك
+
+- لا يوجد
