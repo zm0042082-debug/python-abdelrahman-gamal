@@ -1,8 +1,15 @@
-def  names (Zeyad , Mohamed , Aya ) :
-     if     Zeyad > Mohamed  and  Zeyad > Aya :
-        return  Zeyad
-     elif   Mohamed > Zeyad  and  Mohamed > Aya :
-        return Mohamed
-     else :
-        return Aya
-print (names (90 , 86 , 73))
+num1 = float (input("enter number")) 
+operator = input ()
+num2 = float (input ("enter number"))
+if     operator == "+" :
+       print ("num1 + num2") 
+elif   operator == "-" :
+       print ("num1-num2")
+elif   operator == "*" :
+       print ("num1*num2")
+elif   operator == "/" :
+       print ("num1/num2")
+elif   operator == "^" :
+       print ("num1**num2")
+else  :
+       print("Error")

@@ -1,42 +1,51 @@
 # اسم الدرس
 
- - if  المقارنات ف 
- - (if) مع ال (funcion)استخدام ال
+بناء الة حاسبة
 
 ## ماذا تعلمت؟
 
-- *المقارنات بين ثلاث طلاب*
+- EX:
 
-EX:
+num1 = float (input("enter number")) 
+operator = input ()
+num2 = float (input ("enter number"))
+if     operator == "+" :
+       print ("num1 + num2") 
+elif   operator == "-" :
+       print ("num1-num2")
+elif   operator == "*" :
+       print ("num1*num2")
+elif   operator == "/" :
+       print ("num1/num2")
+elif   operator == "^" : pow
+       print ("num1**num2")
+else  :
+       print("Error")
 
-def  names (Zeyad , Mohamed , Aya )
-     if     Zeyad > Mohamed  and  Zeyad > Aya :
-        return Zeyad
-     elif   Mohamed > Zeyad  and  Mohamed > Aya :
-        return Mohamed
-     else :
-        return Aya
-print (names (90 , 86 , 73))
 
-= 90
+
+
 
 ## أهم الملاحظات
 
-- لا يوجد
+-   (int)مينفعش اعملها  (float) لازم البيانات هنا تكون  
 
 ## شرح الكود بكلماتك
 
-- لا يوجد
+- لايوجد
 
 ## أمثلة إضافية جربتها
 
 - لا يوجد
 
 ## الأخطاء التي واجهتني
--
+
+- لا يوجد
 
 ## كيف قمت بحلها؟
--
+
+- لا يوجد
 
 ## أسئلة أريد البحث عنها لاحقًا
--
+
+- لا يوجد
